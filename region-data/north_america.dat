@@ -1,0 +1,56 @@
+{
+    "meta":
+    {
+        "file" : "north_america.dat",
+        "version" : 1,
+        "description" : "North America Game Data",
+    },
+    "regions" :
+    [
+        {
+            "type" : "country",
+            "name" : "Canada",
+            "capital" : "Ottawa",
+            "area" : 9984670,
+            "population" : 36624199,
+            "currency" : "Canadian Dollar",
+            "language" : "English, French",
+            "flag" : "canada.png",
+            "factoids":
+            [
+                "Canada has the longest coastline of any country in the world.",
+                "Canada has the longest highway in the world"
+            ]
+        },
+        {
+            "type" : "country",
+            "name" : "United States",
+            "capital" : "Washington D.C.",
+            "area" : 9629091,
+            "population" : 324459463,
+            "currency" : "US Dollar",
+            "language" : "English",
+            "flag" : "united_states.png",
+            "factoids":
+            [
+                "The United States has the world's largest economy.",
+                "The United States has the world's largest military."
+            ]
+        },
+        {
+            "type" : "country",
+            "name" : "Mexico",
+            "capital" : "Mexico City",
+            "area" : 1964375,
+            "population" : 129163276,
+            "currency" : "Mexican Peso",
+            "language" : "Spanish",
+            "flag" : "mexico.png",
+            "factoids":
+            [
+                "Mexico is the largest Spanish-speaking country in the world.",
+                "Mexico has the world's largest population of Spanish speakers."
+            ]
+        }
+    ]    
+}
