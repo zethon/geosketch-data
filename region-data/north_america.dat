@@ -3,54 +3,99 @@
     {
         "file" : "north_america.dat",
         "version" : 1,
-        "description" : "North America Game Data",
+        "description" : "North America Game Data"
     },
-    "regions" :
-    [
-        {
-            "type" : "country",
-            "name" : "Canada",
-            "capital" : "Ottawa",
-            "area" : 9984670,
-            "population" : 36624199,
-            "currency" : "Canadian Dollar",
-            "language" : "English, French",
-            "flag" : "canada.png",
-            "factoids":
+    "region" : 
+    {
+        "type" : "continent",
+        "name" : "North America",
+        "area" : 24709000,
+        "population" : 579024000,
+        "countries" : 23,
+        "flag" : "north_america.png",
+        "factoids" :
             [
-                "Canada has the longest coastline of any country in the world.",
-                "Canada has the longest highway in the world"
-            ]
-        },
-        {
-            "type" : "country",
-            "name" : "United States",
-            "capital" : "Washington D.C.",
-            "area" : 9629091,
-            "population" : 324459463,
-            "currency" : "US Dollar",
-            "language" : "English",
-            "flag" : "united_states.png",
-            "factoids":
+                "North America is the third largest continent in the world.",
+                "North America is the fourth most populous continent in the world."
+            ],
+        "subregions" :
             [
-                "The United States has the world's largest economy.",
-                "The United States has the world's largest military."
-            ]
-        },
-        {
-            "type" : "country",
-            "name" : "Mexico",
-            "capital" : "Mexico City",
-            "area" : 1964375,
-            "population" : 129163276,
-            "currency" : "Mexican Peso",
-            "language" : "Spanish",
-            "flag" : "mexico.png",
-            "factoids":
-            [
-                "Mexico is the largest Spanish-speaking country in the world.",
-                "Mexico has the world's largest population of Spanish speakers."
-            ]
-        }
-    ]    
+                {
+                    "type" : "country",
+                    "name" : "Canada",
+                    "capital" : "Ottawa",
+                    "area" : 9984670,
+                    "population" : 36624199,
+                    "currency" : "Canadian Dollar",
+                    "language" : "English, French",
+                    "flag" : "canada.png",
+                    "factoids":
+                    [
+                        "Canada has the longest coastline of any country in the world.",
+                        "Canada has the longest highway in the world"
+                    ]
+                },
+                {
+                    "type" : "country",
+                    "name" : "United States",
+                    "capital" : "Washington D.C.",
+                    "area" : 9629091,
+                    "population" : 324459463,
+                    "currency" : "US Dollar",
+                    "language" : "English",
+                    "flag" : "united_states.png",
+                    "factoids":
+                    [
+                        "The United States has the world's largest economy.",
+                        "The United States has the world's largest military."
+                    ],
+                    "subregions":
+                    [
+                        {
+                            "type" : "state",
+                            "name" : "California",
+                            "capital" : "Sacramento",
+                            "area" : 423970,
+                            "population" : 39536653,
+                            "language" : "English",
+                            "flag" : "california.png",
+                            "factoids":
+                            [
+                                "California is the most populous state in the United States.",
+                                "California is the third largest state in the United States."
+                            ]
+                        },
+                        {
+                            "type" : "state",
+                            "name" : "Texas",
+                            "capital" : "Austin",
+                            "area" : 695662,
+                            "population" : 28304596,
+                            "language" : "English",
+                            "flag" : "texas.png",
+                            "factoids":
+                            [
+                                "Texas is the second most populous state in the United States.",
+                                "Texas is the second largest state in the United States."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type" : "country",
+                    "name" : "Mexico",
+                    "capital" : "Mexico City",
+                    "area" : 1964375,
+                    "population" : 129163276,
+                    "currency" : "Mexican Peso",
+                    "language" : "Spanish",
+                    "flag" : "mexico.png",
+                    "factoids":
+                    [
+                        "Mexico is the largest Spanish-speaking country in the world.",
+                        "Mexico has the world's largest population of Spanish speakers."
+                    ]
+                }
+            ]    
+    }
 }

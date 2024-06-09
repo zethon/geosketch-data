@@ -1,0 +1,46 @@
+{
+    "meta":
+    {
+        "file": "united-states.dat",
+        "version": 1,
+        "description": "United States of America Game Data",
+        "parent": "north_america.dat"
+    },
+    "region":
+    {
+        "type": "country",
+        "name": "United States of America",
+        "factoids":
+            [
+                "The United States of America is a federal republic composed of 50 states, a federal district, five major self-governing territories, and various possessions.",
+                "The United States is the world's third or fourth largest country by total area and is slightly smaller than the entire continent of Europe.",
+                "The United States is the world's largest importer and the second largest exporter of goods, by value.",
+                "The United States is the world's foremost economic and military power, a prominent political and cultural force, and a leader in scientific research and technological innovations."
+            ],
+        "subregions":
+            [
+                {
+                    "type": "state",
+                    "name": "Alabama",
+                    "factoids":
+                        [
+                            "Alabama is nicknamed the Yellowhammer State, after the state bird.",
+                            "Alabama is also known as the Heart of Dixie.",
+                            "Alabama is the 30th largest state in the United States."
+                        ],
+                    "subregions" : { "include": "alabama.dat" }
+                },
+                {
+                    "type": "state",
+                    "name": "Alaska",
+                    "factoids":
+                        [
+                            "Alaska is the largest state in the United States by area.",
+                            "Alaska is the 3rd least populous and the most sparsely populated state in the United States.",
+                            "Alaska is the only non-contiguous U.S. state on continental North America."
+                        ],
+                    "subregions" : { "include": "alaska.dat" }
+                }
+            ]
+    }
+}

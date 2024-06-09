@@ -1,56 +1,67 @@
 {
-    "meta":
-    {
-        "file" : "south_america.dat",
-        "version" : 1,
-        "description" : "South America Game Data"
+    "meta": {
+        "file": "south_america.dat",
+        "version": 1,
+        "description": "South America Game Data"
     },
-    "regions" :
-    [
-        {
-            "type" : "country",
-            "name" : "Bolivia",
-            "capital" : "La Paz",
-            "area" : 1098581,
-            "population" : 11051600,
-            "currency" : "Boliviano",
-            "language" : "Spanish",
-            "flag" : "bolivia.png",
-            "factoids":
-            [
-                "Bolivia has two capitals: La Paz and Sucre.",
-                "Bolivia has the world's highest navigable lake, Lake Titicaca."
-            ]
-        },
-        {
-            "type" : "country",
-            "name" : "Colombia",
-            "capital" : "Bogota",
-            "area" : 1141748,
-            "population" : 49065615,
-            "currency" : "Colombian Peso",
-            "language" : "Spanish",
-            "flag" : "colombia.png",
-            "factoids":
-            [
-                "Colombia is the only South American country with coastlines on both the Pacific Ocean and the Caribbean Sea.",
-                "Colombia is the world's largest producer of emeralds."
-            ]
-        },
-        {
-            "type" : "country",
-            "name" : "Chile",
-            "capital" : "Santiago",
-            "area" : 291930,
-            "population" : 17789267,
-            "currency" : "Chilean Peso",
-            "language" : "Spanish",
-            "flag" : "chile.png",
-            "factoids":
-            [
-                "Chile is the longest north-south country in the world.",
-                "Chile is the world's largest producer of copper."
-            ]
-        }
-    ]    
+    "region": 
+    {
+        "type": "continent",
+        "name": "South America",
+        "area": 17840000,
+        "population": 385742554,
+        "countries": 12,
+        "language": "Spanish, Portuguese, English, Dutch, French",
+        "currency": "Various",
+        "flag": "south_america.png",
+        "factoids": [
+            "South America is the fourth largest continent in the world.",
+            "South America is home to the world's largest rainforest, the Amazon.",
+            "South America is home to the world's longest mountain range, the Andes."
+        ],
+        "subregions": [
+            {
+                "type": "country",
+                "name": "Bolivia",
+                "capital": "La Paz",
+                "area": 1098581,
+                "population": 11051600,
+                "currency": "Boliviano",
+                "language": "Spanish",
+                "flag": "bolivia.png",
+                "factoids": [
+                    "Bolivia has two capitals: La Paz and Sucre.",
+                    "Bolivia has the world's highest navigable lake, Lake Titicaca."
+                ]
+            },
+            {
+                "type": "country",
+                "name": "Colombia",
+                "capital": "Bogota",
+                "area": 1141748,
+                "population": 49065615,
+                "currency": "Colombian Peso",
+                "language": "Spanish",
+                "flag": "colombia.png",
+                "factoids": [
+                    "Colombia is the only South American country with coastlines on both the Pacific Ocean and the Caribbean Sea.",
+                    "Colombia is the world's largest producer of emeralds."
+                ]
+            },
+            {
+                "type": "country",
+                "name": "Chile",
+                "capital": "Santiago",
+                "area": 291930,
+                "population": 17789267,
+                "currency": "Chilean Peso",
+                "language": "Spanish",
+                "flag": "chile.png",
+                "factoids": [
+                    "Chile is the longest north-south country in the world.",
+                    "Chile is the world's largest producer of copper."
+                ]
+            }
+        ]
+    }
 }
